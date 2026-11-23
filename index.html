@@ -181,6 +181,44 @@ main{max-width:1120px;margin:0 auto}
 .footer{text-align:center;font-size:12px;color:var(--mu);padding:24px 16px 28px}
 .footer a{color:var(--act);font-weight:600}
 
+/* ---------- product cards with photos ---------- */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.pbtn{font:inherit;color:inherit;text-align:left;padding:0;cursor:pointer;width:100%}
+.ph-img{background:#FFFFFF}
+.ph-img img{width:100%;height:100%;object-fit:contain}
+
+/* ---------- product details sheet ---------- */
+.sheet{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;justify-content:flex-end;visibility:hidden}
+.sheet.show{visibility:visible}
+.sheet-bg{position:absolute;inset:0;border:0;padding:0;background:rgba(0,0,0,.6);opacity:0;transition:opacity .25s;cursor:pointer}
+.sheet.show .sheet-bg{opacity:1}
+.sheet-panel{position:relative;max-height:92vh;max-height:92dvh;overflow-y:auto;overscroll-behavior:contain;background:var(--bg);color:var(--tx);
+  border-radius:24px 24px 0 0;border-top:1px solid var(--bd);padding:10px 16px calc(20px + env(safe-area-inset-bottom));
+  display:flex;flex-direction:column;gap:14px;transform:translateY(100%);transition:transform .3s cubic-bezier(.2,.8,.2,1);box-shadow:0 -10px 40px rgba(0,0,0,.35)}
+.sheet.show .sheet-panel{transform:none}
+.grab{align-self:center;width:40px;height:4px;border-radius:999px;background:var(--bd)}
+.gallery{position:relative;border-radius:18px;overflow:hidden;background:#FFFFFF}
+.slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;aspect-ratio:1/0.82}
+.slides::-webkit-scrollbar{display:none}
+.slides img{flex:0 0 100%;width:100%;height:100%;object-fit:contain;scroll-snap-align:center}
+.xbtn{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:999px;border:0;background:rgba(0,0,0,.6);color:#FFFFFF;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.thumbs{display:flex;gap:10px}
+.thumb{width:62px;height:62px;padding:0;border-radius:12px;overflow:hidden;background:#FFFFFF;border:1px solid var(--bd);cursor:pointer}
+.thumb.on{border:2px solid var(--act)}
+.thumb img{width:100%;height:100%;object-fit:contain}
+.kind{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mu)}
+.sheet h2{font-size:24px;font-weight:800;margin-top:4px}
+.feats{list-style:none;margin:0;padding:0;border-bottom:1px solid var(--bd)}
+.feats li{display:flex;gap:10px;align-items:center;padding:11px 0;border-top:1px solid var(--bd);font-size:15px;color:var(--tx2)}
+.feats li span{flex:none;width:22px;height:22px;border-radius:999px;background:var(--surf2);color:var(--act);display:flex;align-items:center;justify-content:center}
+body.locked{overflow:hidden}
+@media (min-width:900px){
+  .sheet{justify-content:center;align-items:center;padding:24px}
+  .sheet-panel{width:100%;max-width:520px;border-radius:24px;border:1px solid var(--bd);transform:translateY(24px);opacity:0;transition:transform .25s,opacity .25s;padding-bottom:20px}
+  .sheet.show .sheet-panel{opacity:1}
+  .grab{display:none}
+}
+
 /* ---------- bottom tab bar ---------- */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--nav);border-top:1px solid var(--bd);
   padding:8px 4px calc(14px + env(safe-area-inset-bottom));transition:background-color .25s}
@@ -304,27 +342,29 @@ main{max-width:1120px;margin:0 auto}
 <section class="tab" id="plotters" data-tab="plotters" aria-labelledby="plotters-h" hidden>
   <div class="hero hero-left">
     <span class="badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>Wholesale only</span>
-    <h1 id="plotters-h">Plotters</h1>
-    <p class="lead">Cutting plotters for mobile skins and screen guards.</p>
-    <a class="btn btn-primary" href="https://wa.me/917021365874?text=Hi%20Noor%20Wraps%2C%20I%20want%20wholesale%20rates%20for%20Plotters" target="_blank" rel="noopener"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.3a8.6 8.6 0 1 1 3.1 3.1z"/><path d="M8.9 8.6c.2-.5.6-.9 1-.9.2 0 .4.1.5.3l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.5 1 1.3 1.8 2.3 2.3l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.2.1.3.3.3.5 0 .4-.4.8-.9 1-.8.3-2.3.1-4-1.6s-1.9-3.3-1.6-4z"/></svg>Get wholesale rates</a>
+    <h1 id="plotters-h">Plotters &amp; Machines</h1>
+    <p class="lead">Cutting plotters, printing machines, UV vacuum machines, heating tools and more.</p>
+    <a class="btn btn-primary" href="https://wa.me/917021365874?text=Hi%20Noor%20Wraps%2C%20I%20want%20wholesale%20rates%20for%20Plotters%20%26%20Machines" target="_blank" rel="noopener"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.3a8.6 8.6 0 1 1 3.1 3.1z"/><path d="M8.9 8.6c.2-.5.6-.9 1-.9.2 0 .4.1.5.3l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.5 1 1.3 1.8 2.3 2.3l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.2.1.3.3.3.5 0 .4-.4.8-.9 1-.8.3-2.3.1-4-1.6s-1.9-3.3-1.6-4z"/></svg>Get wholesale rates</a>
   </div>
   <div class="grid products">
-<article class="pcard">
-  <div class="ph"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Photo coming soon</span></div>
+<button type="button" class="pcard pbtn" data-pid="nd390" aria-haspopup="dialog">
+  <div class="ph ph-img"><img src="nd390-1.jpg" alt="Wotaer ND-390 cutting plotter" width="800" height="800" loading="lazy"></div>
   <div class="pbody">
-    <h3 class="muted-name">[Plotter model 1]</h3>
-    <p>[Short spec line]</p>
-    <a class="enq" href="https://wa.me/917021365874?text=Hi%20Noor%20Wraps%2C%20I%20want%20wholesale%20rates%20for%20%5BPlotter%20model%201%5D" target="_blank" rel="noopener">Enquire ›</a>
+    <h3>Wotaer ND-390</h3>
+    <p>Cuts up to 19 inches · In-built display</p>
+    <span class="enq">View details ›</span>
+    <ul class="sr-only"><li>Cuts up to 19 inches</li><li>Laptop designs included</li><li>Supports YouTube &amp; Instagram</li><li>In-built display</li><li>Bluetooth support</li><li>1 year warranty</li></ul>
   </div>
-</article>
-<article class="pcard">
-  <div class="ph"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Photo coming soon</span></div>
+</button>
+<button type="button" class="pcard pbtn" data-pid="f7pro" aria-haspopup="dialog">
+  <div class="ph ph-img"><img src="f7pro-1.jpg" alt="Wotaer F7-Pro cutting plotter" width="800" height="800" loading="lazy"></div>
   <div class="pbody">
-    <h3 class="muted-name">[Plotter model 2]</h3>
-    <p>[Short spec line]</p>
-    <a class="enq" href="https://wa.me/917021365874?text=Hi%20Noor%20Wraps%2C%20I%20want%20wholesale%20rates%20for%20%5BPlotter%20model%202%5D" target="_blank" rel="noopener">Enquire ›</a>
+    <h3>Wotaer F7-Pro</h3>
+    <p>Cuts up to 19 inches · In-built display</p>
+    <span class="enq">View details ›</span>
+    <ul class="sr-only"><li>Cuts up to 19 inches</li><li>Laptop designs included</li><li>Supports YouTube &amp; Instagram</li><li>In-built display</li><li>Bluetooth support</li><li>1 year warranty</li></ul>
   </div>
-</article>
+</button>
   </div>
 </section>
 <section class="tab" id="skins" data-tab="skins" aria-labelledby="skins-h" hidden>
@@ -507,6 +547,21 @@ main{max-width:1120px;margin:0 auto}
   © <span id="year">2026</span> Noor Wraps · Wholesale only · <a href="https://instagram.com/noorwraps.in" target="_blank" rel="noopener">@noorwraps.in</a>
 </footer>
 
+<div class="sheet" id="sheet" aria-hidden="true">
+  <button type="button" class="sheet-bg" data-close aria-label="Close details" tabindex="-1"></button>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <span class="grab" aria-hidden="true"></span>
+    <div class="gallery">
+      <div class="slides" id="slides"></div>
+      <button type="button" class="xbtn" data-close aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="thumbs" id="thumbs"></div>
+    <div><span class="kind" id="sheet-kind"></span><h2 id="sheet-title"></h2></div>
+    <ul class="feats" id="sheet-feats"></ul>
+    <a class="btn btn-primary" id="sheet-enq" href="https://wa.me/917021365874" target="_blank" rel="noopener"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.3a8.6 8.6 0 1 1 3.1 3.1z"/><path d="M8.9 8.6c.2-.5.6-.9 1-.9.2 0 .4.1.5.3l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.5 1 1.3 1.8 2.3 2.3l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.2.1.3.3.3.5 0 .4-.4.8-.9 1-.8.3-2.3.1-4-1.6s-1.9-3.3-1.6-4z"/></svg>Enquire on WhatsApp</a>
+  </div>
+</div>
+
 <script>
 (function () {
   var root = document.documentElement;
@@ -537,7 +592,7 @@ main{max-width:1120px;margin:0 auto}
     else location.hash = tab;
   });
   window.addEventListener('hashchange', function () { show(current(), true); });
-  window.addEventListener('popstate', function () { show(current(), true); });
+  window.addEventListener('popstate', function () { var c = current(); if (document.getElementById(c).hidden) show(c, true); });
   show(current(), false);
 
   /* ---------- colour theme palette ---------- */
@@ -578,6 +633,51 @@ main{max-width:1120px;margin:0 auto}
   document.addEventListener('click', function (e) { if (box.classList.contains('open') && !box.contains(e.target)) setOpen(false); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && box.classList.contains('open')) setOpen(false); });
   layout();
+
+  /* ---------- product details sheet ---------- */
+  var PRODUCTS = {"nd390": {"name": "Wotaer ND-390", "kind": "Cutting plotter", "hi": "Cuts up to 19 inches \u00b7 In-built display", "imgs": 3, "feats": ["Cuts up to 19 inches", "Laptop designs included", "Supports YouTube & Instagram", "In-built display", "Bluetooth support", "1 year warranty"]}, "f7pro": {"name": "Wotaer F7-Pro", "kind": "Cutting plotter", "hi": "Cuts up to 19 inches \u00b7 In-built display", "imgs": 3, "feats": ["Cuts up to 19 inches", "Laptop designs included", "Supports YouTube & Instagram", "In-built display", "Bluetooth support", "1 year warranty"]}};
+  var sheet = document.getElementById('sheet');
+  var slides = document.getElementById('slides');
+  var thumbs = document.getElementById('thumbs');
+  var lastFocus = null;
+  var TICK = '<span aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></span>';
+  function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+  function markThumb(i) {
+    thumbs.querySelectorAll('.thumb').forEach(function (b, k) { b.classList.toggle('on', k === i); b.setAttribute('aria-pressed', k === i ? 'true' : 'false'); });
+  }
+  function openSheet(pid) {
+    var p = PRODUCTS[pid]; if (!p) return;
+    lastFocus = document.activeElement;
+    var s = '', t = '';
+    for (var i = 1; i <= p.imgs; i++) {
+      s += '<img src="' + pid + '-' + i + '.jpg" alt="' + esc(p.name) + ' photo ' + i + '" width="800" height="800">';
+      t += '<button type="button" class="thumb" data-i="' + (i - 1) + '" aria-label="Photo ' + i + '"><img src="' + pid + '-' + i + '.jpg" alt=""></button>';
+    }
+    slides.innerHTML = s; thumbs.innerHTML = t; slides.scrollLeft = 0; markThumb(0);
+    document.getElementById('sheet-kind').textContent = p.kind;
+    document.getElementById('sheet-title').textContent = p.name;
+    document.getElementById('sheet-feats').innerHTML = p.feats.map(function (f) { return '<li>' + TICK + esc(f) + '</li>'; }).join('');
+    document.getElementById('sheet-enq').href = 'https://wa.me/917021365874?text=' + encodeURIComponent('Hi Noor Wraps, I want wholesale rates for ' + p.name);
+    sheet.setAttribute('aria-hidden', 'false');
+    sheet.classList.add('show'); document.body.classList.add('locked');
+    try { history.pushState({ sheet: 1 }, ''); } catch (e) {}
+    setTimeout(function () { sheet.querySelector('.xbtn').focus(); }, 50);
+  }
+  function closeSheet(fromHistory) {
+    if (!sheet.classList.contains('show')) return;
+    sheet.classList.remove('show'); sheet.setAttribute('aria-hidden', 'true'); document.body.classList.remove('locked');
+    if (!fromHistory && history.state && history.state.sheet) { try { history.back(); } catch (e) {} }
+    if (lastFocus) lastFocus.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var c = e.target.closest('.pbtn'); if (c) { openSheet(c.getAttribute('data-pid')); return; }
+    if (e.target.closest('[data-close]')) { closeSheet(false); return; }
+    var th = e.target.closest('.thumb');
+    if (th) { var i = +th.getAttribute('data-i'); slides.scrollTo({ left: i * slides.clientWidth, behavior: 'smooth' }); markThumb(i); }
+  });
+  slides.addEventListener('scroll', function () { markThumb(Math.round(slides.scrollLeft / Math.max(1, slides.clientWidth))); }, { passive: true });
+  window.addEventListener('popstate', function () { closeSheet(true); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeSheet(false); });
 
   document.getElementById('year').textContent = new Date().getFullYear();
 })();

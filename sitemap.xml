@@ -1,4 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://noorwraps.in/</loc><lastmod>2026-11-22</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://noorwraps.in/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://noorwraps.in/logo.png</image:loc><image:title>Noor Wraps logo</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://noorwraps.in/plotters</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://noorwraps.in/nd390-1.jpg</image:loc><image:title>Wotaer ND-390</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/nd390-2.jpg</image:loc><image:title>Wotaer ND-390</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/nd390-3.jpg</image:loc><image:title>Wotaer ND-390</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/f7pro-1.jpg</image:loc><image:title>Wotaer F7-Pro</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/f7pro-2.jpg</image:loc><image:title>Wotaer F7-Pro</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/f7pro-3.jpg</image:loc><image:title>Wotaer F7-Pro</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/uvch03-1.jpg</image:loc><image:title>CH-03 Flatbed UV Printer</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/m10-1.jpg</image:loc><image:title>M10 UV Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/m10-2.jpg</image:loc><image:title>M10 UV Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/uvvac-1.jpg</image:loc><image:title>UV + Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/uvvac-2.jpg</image:loc><image:title>UV + Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/uvvac-3.jpg</image:loc><image:title>UV + Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/uvvac-4.jpg</image:loc><image:title>UV + Vacuum Machine</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/aibox-1.jpg</image:loc><image:title>AI Pro Box</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatpen-auto-1.jpg</image:loc><image:title>Heat Pen with Auto Shut-Off</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatpen-1.jpg</image:loc><image:title>Heat Pen</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-red-1.jpg</image:loc><image:title>Heat Gun (Black &amp; Red)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-red-2.jpg</image:loc><image:title>Heat Gun (Black &amp; Red)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-red-3.jpg</image:loc><image:title>Heat Gun (Black &amp; Red)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-blue-1.jpg</image:loc><image:title>Heat Gun (White &amp; Blue)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-blue-2.jpg</image:loc><image:title>Heat Gun (White &amp; Blue)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/heatgun-blue-3.jpg</image:loc><image:title>Heat Gun (White &amp; Blue)</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://noorwraps.in/skins</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://noorwraps.in/sk-imp3emb-1.jpg</image:loc><image:title>Imported 3-Layer Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-imp3emb-2.jpg</image:loc><image:title>Imported 3-Layer Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-imp3emb-3.jpg</image:loc><image:title>Imported 3-Layer Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-imp3emb-4.jpg</image:loc><image:title>Imported 3-Layer Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-imp3emb-5.jpg</image:loc><image:title>Imported 3-Layer Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-premboss-1.jpg</image:loc><image:title>Premium Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-premboss-2.jpg</image:loc><image:title>Premium Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-premboss-3.jpg</image:loc><image:title>Premium Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-premboss-4.jpg</image:loc><image:title>Premium Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-premboss-5.jpg</image:loc><image:title>Premium Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-sparkle-1.jpg</image:loc><image:title>Premium Sparkle Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-sparkle-2.jpg</image:loc><image:title>Premium Sparkle Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-sparkle-3.jpg</image:loc><image:title>Premium Sparkle Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-sparkle-4.jpg</image:loc><image:title>Premium Sparkle Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-sparkle-5.jpg</image:loc><image:title>Premium Sparkle Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-fulluv-1.jpg</image:loc><image:title>Full UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-fulluv-2.jpg</image:loc><image:title>Full UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-fulluv-3.jpg</image:loc><image:title>Full UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-fulluv-4.jpg</image:loc><image:title>Full UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-transuv-1.jpg</image:loc><image:title>Transparent UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-transuv-2.jpg</image:loc><image:title>Transparent UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-transuv-3.jpg</image:loc><image:title>Transparent UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-transuv-4.jpg</image:loc><image:title>Transparent UV Embossed Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-aero-1.jpg</image:loc><image:title>Transparent Aeroplane Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-1.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-2.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-3.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-4.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-5.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-6.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-7.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-8.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-9.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-textured-10.jpg</image:loc><image:title>Imported 3-Layer Textured Skin</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-rolls-1.jpg</image:loc><image:title>Mixed Skin Rolls</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-rolls-2.jpg</image:loc><image:title>Mixed Skin Rolls</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-rolls-3.jpg</image:loc><image:title>Mixed Skin Rolls</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/sk-rolls-4.jpg</image:loc><image:title>Mixed Skin Rolls</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://noorwraps.in/tpu</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-1.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-2.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-3.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-4.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-5.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-6.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-7.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-8.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noor-9.jpg</image:loc><image:title>Noor TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-noorbig-1.jpg</image:loc><image:title>Noor Big Size TPU</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-1.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-2.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-3.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-4.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-5.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-mie-6.jpg</image:loc><image:title>Mietubl TPU Membrane Sheets</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-miebig-1.jpg</image:loc><image:title>Mietubl Big Size TPU</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-miebig-2.jpg</image:loc><image:title>Mietubl Big Size TPU</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-miebig-3.jpg</image:loc><image:title>Mietubl Big Size TPU</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/tpu-miebig-4.jpg</image:loc><image:title>Mietubl Big Size TPU</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://noorwraps.in/more</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://noorwraps.in/more-1-1.jpg</image:loc><image:title>Mietubl Moving Card / Applicator (18.1 cm)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-2-1.jpg</image:loc><image:title>Mietubl Moving Card / Applicator (7.3 cm)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-3-1.jpg</image:loc><image:title>Mietubl Anti-Slip Mat</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-4-1.jpg</image:loc><image:title>Mietubl Anti-Slip Mat with Hole</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-5-1.jpg</image:loc><image:title>Mietubl Photo Paper Set</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-6-1.jpg</image:loc><image:title>Mietubl Blade Holder (180T / 180T Pro)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-7-1.jpg</image:loc><image:title>Mietubl Blade Holder (M180T)</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-8-1.jpg</image:loc><image:title>Mietubl Plotter Blades</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-9-1.jpg</image:loc><image:title>Mietubl Plotter Glue Pad</image:title></image:image>
+    <image:image><image:loc>https://noorwraps.in/more-10-1.jpg</image:loc><image:title>Mietubl Plotter Mat</image:title></image:image>
+  </url>
 </urlset>
